@@ -1,0 +1,33 @@
+version: 1
+
+packs:
+  platform: agentic-eds
+  tracker: agentic-jira
+  scm: agentic-github
+  design: agentic-figma
+  browser: agentic-playwright
+
+commands:
+  lint: "npm run lint"
+  test: ""
+  build: ""
+  serve: "npx -y @adobe/aem-cli up"
+
+paths:
+  spec_dir: ".ai/specs"
+  preview: "http://localhost:3000/preview"
+
+limits:
+  questions_per_run: 3
+  fix_attempts_default: 3
+
+trigger:
+  token: "@agentic-run"
+  allowed_identities:
+    - "557058:7ae59138-4bd7-40b2-a4f6-06da356b86a4"
+
+branch_name:
+  max_length: 22
+
+platform:
+  preview_host_suffix: "--agenticdraft-ai-delivery-demo--zmarkoni"
