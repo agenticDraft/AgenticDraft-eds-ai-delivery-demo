@@ -27,7 +27,7 @@ trigger:
     - "557058:7ae59138-4bd7-40b2-a4f6-06da356b86a4"
 
 branch_name:
-  max_length: 22
+  max_length: 14
 
 platform:
-  preview_host_suffix: "--agenticdraft-ai-delivery-demo--zmarkoni"
+  preview_host_suffix: "--agenticdraft-eds-ai-delivery-demo--agenticdraft"
