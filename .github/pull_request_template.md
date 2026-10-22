@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--AgenticDraft-ai-delivery-demo--zmarkoni.aem.live/
-- After: https://<branch>--AgenticDraft-ai-delivery-demo--zmarkoni.aem.live/
+- Before: https://main--agenticdraft-eds-ai-delivery-demo--agenticdraft.aem.live/
+- After: https://<branch>--agenticdraft-eds-ai-delivery-demo--agenticdraft.aem.live/
