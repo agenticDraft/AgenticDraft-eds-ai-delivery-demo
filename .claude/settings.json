@@ -1,0 +1,24 @@
+{
+  "enabledPlugins": {
+    "agentic-core@agenticdraft": true,
+    "agentic-eds@agenticdraft": true,
+    "agentic-jira@agenticdraft": true,
+    "agentic-github@agenticdraft": true,
+    "agentic-figma@agenticdraft": true,
+    "agentic-playwright@agenticdraft": true
+  },
+  "extraKnownMarketplaces": {
+    "agenticdraft": {
+      "source": {
+        "source": "github",
+        "repo": "agenticDraft/plugins",
+        "ref": "v0.2.8"
+      }
+    }
+  },
+  "sandbox": {
+    "network": {
+      "allowedDomains": ["api.github.com", "github.com", "*.atlassian.net"]
+    }
+  }
+}

@@ -11,3 +11,14 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+.history
+.ai/run-context/
+.ai/tracker/
+.ai/scm/
+.ai/figma/
+.ai/playwright/
+.ai/logs/
+.ai/run-state.json
+.ai/progress.md
+.ai/route-progress.txt
